@@ -1,0 +1,54 @@
+.sidebar {
+  width: 300px;
+  height: 100vh;
+
+  &__username {
+    width: 300px;
+    height: 100px;
+    background-color: #253141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .topitems {
+      background-color: #d8d8d8;
+      height: 20px;
+      width: 260px;
+      display: flex;
+      justify-content: space-between;
+
+      &__name {
+
+      }
+      &__icon {
+        width: 60px;
+        height: 20px;
+        display: flex;
+        justify-content: flex-end;
+        &--1 {
+          
+        }
+        &--2 {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+  &__grouplist {
+    width: 300px;
+    height: calc(100vh - 100px);
+    background-color: #2f3e51;
+
+    &--messages {
+      background-color: royalblue;
+
+      &--group {
+        height: 40px;
+      }
+      &--mes {
+        height: 40px;
+      }
+    }
+
+  }
+}
+
